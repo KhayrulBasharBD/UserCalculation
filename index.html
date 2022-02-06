@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard Event</title>
+</head>
+<body>
+
+<script>
+	var name1 = prompt('Type Your First Name: ');
+		var name2 = prompt('Type Your Last Name: ');
+		var fullName = name1+' '+name2;
+		document.write('My Name is ' +fullName +'<br>');
+
+		var num1 = prompt('Enter first number: ');
+		var num2 = prompt('Enter second number: ');
+
+		var n1 = parseInt(num1,10);
+		var n2 = parseInt(num2,10);
+
+		var sum, sub, mul, div, rem;
+
+		sum = n1+n2;
+		sub = n1-n2;
+		mul = n1*n2;
+		div = n1/n2;
+		rem = n1%n2;
+
+		document.write('This is the additional result: '+n1 + "+" + n2 + "=" + sum +'<br>');
+		document.write('This is the subtraction result: '+ n1 +'-'+ n2 +"="+ sub +'<br>');
+		document.write('This is the multplication result: '+n1 +'*'+ n2 +'='+ mul +'<br>');
+		document.write('This is the divition result: ' +n1 +'/'+n2+'='+div+ '<br>');
+		document.write('This is the reminder result: '+n1+'%'+n2+ '='+ rem+ '<br>');
+</script>
+
+</body>
+
+</html>
